@@ -1,0 +1,9 @@
+1. i is declared using var making it a global variable. So console.log(i) will print prices.length. After i iterates through the for loop it's value will be prices.length. 
+2. discountedPrice is declared using var making it a global variable. So console.log(discountedPrice) Will print out the last element in prices mutiplied by the discount or prices[i] *(1 - discount); 
+3. finalPrice is declared using var making it a global variable. So console.log(finalPrice) will print out the finalPrice of the last element in prices. finalPrice is just discountedPrice but rounded so all decimal places after the 10's place are 0.
+4.  The function will calculate the finalPrices of all the original values in the prices array. It will then store these values in the discounted array. The discounted array it returns looks like [ 50, 100, 150 ].
+5. There will be an error because i is declared using let. And when console.log(i) is called i is not defined in the same scope. It exists only in the for loop.
+6. There will be an error because discountedPrice is declared using let. And when console.log(discountedPrice) is called discountedPrice is not defined in the same scope. It exists only in the for loop.
+7. finalPrice is declared using let and is in the same scope as console.log(finalPrice). So it will print out the finalPrice of the last element in prices. finalPrice is just discountedPrice but rounded so all decimal places after the 10's place are 0.
+8. The function will calculate the finalPrices of all the original values in the prices array. It will then store these values in the discounted array. The discounted array it returns looks like [ 50, 100, 150 ].
+9. 
