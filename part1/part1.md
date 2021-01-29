@@ -13,33 +13,33 @@
 
 13. Question 13
 <ol type="a">
-  <li> A. student.name</li>
-  <li>B. student["Grad Year"]</li>
-  <li>C. student.greeting()</li>
-  <li> D. student["Favorite Teacher"].name </li>
-<li> E. student.courseLoad[0]</li>
+  <li>  student.name</li>
+  <li> student["Grad Year"]</li>
+  <li> student.greeting()</li>
+  <li>  student["Favorite Teacher"].name </li>
+<li>  student.courseLoad[0]</li>
 </ol>
 
 14. Arithmetic
    <ol type="a">
-  <li> A. '3' + 2 = '32'</li>
-  <li> B. ‘3’ - 2 = 1 converted 3 to string then sub 2 resulting in 1. </li>
-  <li>C. 3 + null = 3 null converted to 0 then added </li>
-  <li>  D. ‘3’ + null = '3null' null converted to string then concatonated to 3. </li>
-  <li> E. true + 3 = 4 true converted to 1 then added to 3. </li>
-  <li> F. false + null = 0 both false and null converteed to 0 then added together </li>
-  <li> G. “3” + undefined = "3undefined" </li>
-  <li> H. “3” - undefined = NaN undefined converted to NaN. Any number operation with NaN results in NaN. </li>
+  <li>  '3' + 2 = '32'</li>
+  <li>  ‘3’ - 2 = 1 converted 3 to string then sub 2 resulting in 1. </li>
+  <li> 3 + null = 3 null converted to 0 then added </li>
+  <li>   ‘3’ + null = '3null' null converted to string then concatonated to 3. </li>
+  <li>  true + 3 = 4 true converted to 1 then added to 3. </li>
+  <li>  false + null = 0 both false and null converteed to 0 then added together </li>
+  <li>  “3” + undefined = "3undefined" </li>
+  <li>  “3” - undefined = NaN undefined converted to NaN. Any number operation with NaN results in NaN. </li>
 </ol>
 
 15.   Comparison
    <ol type="a">
-  <li>  A. ‘2’ > 1 = true '2' converted to 2 which is greater than 1. </li>
-  <li>  B. ‘2’ < ‘12’ = false Strings are compared. char 1 is less than char 2 thus false. </li>
-  <li> C. 2 == ‘2’ = true '2' is converted to number and compared they are equal </li>
-  <li> D. 2 === ‘2’ = false strict equality check with no type conversions. They cannot be equal because they are different types. </li>
-  <li>  E. true == 2 = false true is converted to 1 which is not equal to 2. </li>
-  <li> F. true === Boolean(2) = true Boolean(2) returns true. compared they are the same.</li>
+  <li>   ‘2’ > 1 = true '2' converted to 2 which is greater than 1. </li>
+  <li>   ‘2’ < ‘12’ = false Strings are compared. char 1 is less than char 2 thus false. </li>
+  <li>  2 == ‘2’ = true '2' is converted to number and compared they are equal </li>
+  <li>  2 === ‘2’ = false strict equality check with no type conversions. They cannot be equal because they are different types. </li>
+  <li>   true == 2 = false true is converted to 1 which is not equal to 2. </li>
+  <li>  true === Boolean(2) = true Boolean(2) returns true. compared they are the same.</li>
 </ol>
    
    
